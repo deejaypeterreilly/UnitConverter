@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    background-color: #1f2937;
+}
+
+
+#convert-section{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #6a43fe;
+    color: aliceblue;
+    text-align: center;
+}
+
+.card-text{
+    color: #cbc1ff;
+}
+
+#input-el{
+    border: solid 2px aliceblue;
+    border-radius: 10px;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    width: 100px;
+    height: 74px;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding: 0 10px;
+}
+
+#input-el:focus{
+    outline: inherit;
+}
+
+#convert-btn{
+    background-color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    width: 120px;
+    height: 40px;
+    font-size: 14px;
+    transition: color, scale 0.2s ease;
+}
+
+
+#convert-btn:hover{
+    color: #6a43fe;
+}
+
+#convert-btn:active{
+    scale: 0.95;
+}
+
+
+.card{
+    text-align: center;
+    background-color: #29344a;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+#card-section{
+    box-sizing: border-box;
+    width: 100%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
